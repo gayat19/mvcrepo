@@ -1,0 +1,20 @@
+﻿@model IEnumerable<FirstWepApplication.Models.Movie>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AllMovies</title>
+</head>
+<body>
+    <div> 
+        <h1>Movie names</h1>
+        <ul>
+            @foreach(var movie in Model)
+            {
+                <li>@movie.Name</li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

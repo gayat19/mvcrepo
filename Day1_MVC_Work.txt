@@ -1,0 +1,9 @@
+m- model
+v- view
+c- controller
+
+RoutingEngine
+RoutingTable
+@model
+@foreach in view
+Model Bound View

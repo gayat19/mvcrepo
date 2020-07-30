@@ -1,0 +1,3 @@
+Create an new MVC application
+Create an Student Model with id,name and age
+Create a list of students and display it in a table
